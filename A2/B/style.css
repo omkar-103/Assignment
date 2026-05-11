@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#eee;
+  font-family:Arial;
+}
+
+.main{
+  text-align:center;
+  padding:40px;
+}
+
+h1{
+  font-size:60px;
+  color:darkred;
+}
+
+p{
+  margin-top:20px;
+}
+
+.images{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  margin-top:40px;
+}
+
+.images img{
+  width:250px;
+  height:300px;
+  border-radius:20px;
+  object-fit:cover;
+}

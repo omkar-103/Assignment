@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:black;
+  color:white;
+  font-family:Arial;
+  padding:20px;
+}
+
+.nav{
+  display:flex;
+  justify-content:space-between;
+}
+
+.link{
+  display:flex;
+  gap:20px;
+}
+
+.link a{
+  color:white;
+  text-decoration:none;
+}
+
+.text{
+  text-align:center;
+  margin-top:40px;
+}
+
+.text h1{
+  font-size:70px;
+}
+
+.card-box{
+  display:flex;
+  gap:20px;
+  margin-top:40px;
+  justify-content:center;
+}
+
+.card{
+  width:300px;
+  background:#111;
+  padding:10px;
+  border-radius:20px;
+}
+
+.card img{
+  width:100%;
+  border-radius:20px;
+}
+
+.card h3{
+  margin-top:10px;
+}
+
+.card p{
+  margin-top:10px;
+}
